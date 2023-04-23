@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F49D62FA29F5767600CC240E /* hahabit_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D62F929F5767600CC240E /* hahabit_iosApp.swift */; };
+		F49D62FC29F5767600CC240E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D62FB29F5767600CC240E /* ContentView.swift */; };
+		F49D62FE29F5767700CC240E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49D62FD29F5767700CC240E /* Assets.xcassets */; };
+		F49D630229F5767700CC240E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49D630129F5767700CC240E /* Preview Assets.xcassets */; };
+		F49D630C29F5767700CC240E /* hahabit_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D630B29F5767700CC240E /* hahabit_iosTests.swift */; };
+		F49D631629F5767700CC240E /* hahabit_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D631529F5767700CC240E /* hahabit_iosUITests.swift */; };
+		F49D631829F5767700CC240E /* hahabit_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D631729F5767700CC240E /* hahabit_iosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F49D630829F5767700CC240E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49D62EE29F5767600CC240E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F49D62F529F5767600CC240E;
+			remoteInfo = "hahabit-ios";
+		};
+		F49D631229F5767700CC240E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49D62EE29F5767600CC240E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F49D62F529F5767600CC240E;
+			remoteInfo = "hahabit-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F49D62F629F5767600CC240E /* hahabit-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hahabit-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49D62F929F5767600CC240E /* hahabit_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hahabit_iosApp.swift; sourceTree = "<group>"; };
+		F49D62FB29F5767600CC240E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F49D62FD29F5767700CC240E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F49D62FF29F5767700CC240E /* hahabit_ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hahabit_ios.entitlements; sourceTree = "<group>"; };
+		F49D630129F5767700CC240E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F49D630729F5767700CC240E /* hahabit-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hahabit-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49D630B29F5767700CC240E /* hahabit_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hahabit_iosTests.swift; sourceTree = "<group>"; };
+		F49D631129F5767700CC240E /* hahabit-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hahabit-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49D631529F5767700CC240E /* hahabit_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hahabit_iosUITests.swift; sourceTree = "<group>"; };
+		F49D631729F5767700CC240E /* hahabit_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hahabit_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F49D62F329F5767600CC240E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49D630429F5767700CC240E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49D630E29F5767700CC240E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F49D62ED29F5767600CC240E = {
+			isa = PBXGroup;
+			children = (
+				F49D62F829F5767600CC240E /* hahabit-ios */,
+				F49D630A29F5767700CC240E /* hahabit-iosTests */,
+				F49D631429F5767700CC240E /* hahabit-iosUITests */,
+				F49D62F729F5767600CC240E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F49D62F729F5767600CC240E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F49D62F629F5767600CC240E /* hahabit-ios.app */,
+				F49D630729F5767700CC240E /* hahabit-iosTests.xctest */,
+				F49D631129F5767700CC240E /* hahabit-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F49D62F829F5767600CC240E /* hahabit-ios */ = {
+			isa = PBXGroup;
+			children = (
+				F49D62F929F5767600CC240E /* hahabit_iosApp.swift */,
+				F49D62FB29F5767600CC240E /* ContentView.swift */,
+				F49D62FD29F5767700CC240E /* Assets.xcassets */,
+				F49D62FF29F5767700CC240E /* hahabit_ios.entitlements */,
+				F49D630029F5767700CC240E /* Preview Content */,
+			);
+			path = "hahabit-ios";
+			sourceTree = "<group>";
+		};
+		F49D630029F5767700CC240E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F49D630129F5767700CC240E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F49D630A29F5767700CC240E /* hahabit-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				F49D630B29F5767700CC240E /* hahabit_iosTests.swift */,
+			);
+			path = "hahabit-iosTests";
+			sourceTree = "<group>";
+		};
+		F49D631429F5767700CC240E /* hahabit-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F49D631529F5767700CC240E /* hahabit_iosUITests.swift */,
+				F49D631729F5767700CC240E /* hahabit_iosUITestsLaunchTests.swift */,
+			);
+			path = "hahabit-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F49D62F529F5767600CC240E /* hahabit-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49D631B29F5767700CC240E /* Build configuration list for PBXNativeTarget "hahabit-ios" */;
+			buildPhases = (
+				F49D62F229F5767600CC240E /* Sources */,
+				F49D62F329F5767600CC240E /* Frameworks */,
+				F49D62F429F5767600CC240E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hahabit-ios";
+			productName = "hahabit-ios";
+			productReference = F49D62F629F5767600CC240E /* hahabit-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F49D630629F5767700CC240E /* hahabit-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49D631E29F5767700CC240E /* Build configuration list for PBXNativeTarget "hahabit-iosTests" */;
+			buildPhases = (
+				F49D630329F5767700CC240E /* Sources */,
+				F49D630429F5767700CC240E /* Frameworks */,
+				F49D630529F5767700CC240E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F49D630929F5767700CC240E /* PBXTargetDependency */,
+			);
+			name = "hahabit-iosTests";
+			productName = "hahabit-iosTests";
+			productReference = F49D630729F5767700CC240E /* hahabit-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F49D631029F5767700CC240E /* hahabit-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49D632129F5767700CC240E /* Build configuration list for PBXNativeTarget "hahabit-iosUITests" */;
+			buildPhases = (
+				F49D630D29F5767700CC240E /* Sources */,
+				F49D630E29F5767700CC240E /* Frameworks */,
+				F49D630F29F5767700CC240E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F49D631329F5767700CC240E /* PBXTargetDependency */,
+			);
+			name = "hahabit-iosUITests";
+			productName = "hahabit-iosUITests";
+			productReference = F49D631129F5767700CC240E /* hahabit-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F49D62EE29F5767600CC240E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F49D62F529F5767600CC240E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F49D630629F5767700CC240E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F49D62F529F5767600CC240E;
+					};
+					F49D631029F5767700CC240E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F49D62F529F5767600CC240E;
+					};
+				};
+			};
+			buildConfigurationList = F49D62F129F5767600CC240E /* Build configuration list for PBXProject "hahabit-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F49D62ED29F5767600CC240E;
+			productRefGroup = F49D62F729F5767600CC240E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F49D62F529F5767600CC240E /* hahabit-ios */,
+				F49D630629F5767700CC240E /* hahabit-iosTests */,
+				F49D631029F5767700CC240E /* hahabit-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F49D62F429F5767600CC240E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49D630229F5767700CC240E /* Preview Assets.xcassets in Resources */,
+				F49D62FE29F5767700CC240E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49D630529F5767700CC240E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49D630F29F5767700CC240E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F49D62F229F5767600CC240E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49D62FC29F5767600CC240E /* ContentView.swift in Sources */,
+				F49D62FA29F5767600CC240E /* hahabit_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49D630329F5767700CC240E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49D630C29F5767700CC240E /* hahabit_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49D630D29F5767700CC240E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49D631829F5767700CC240E /* hahabit_iosUITestsLaunchTests.swift in Sources */,
+				F49D631629F5767700CC240E /* hahabit_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F49D630929F5767700CC240E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F49D62F529F5767600CC240E /* hahabit-ios */;
+			targetProxy = F49D630829F5767700CC240E /* PBXContainerItemProxy */;
+		};
+		F49D631329F5767700CC240E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F49D62F529F5767600CC240E /* hahabit-ios */;
+			targetProxy = F49D631229F5767700CC240E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F49D631929F5767700CC240E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F49D631A29F5767700CC240E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F49D631C29F5767700CC240E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hahabit-ios/hahabit_ios.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hahabit-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.skagedal.hahabit-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F49D631D29F5767700CC240E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hahabit-ios/hahabit_ios.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hahabit-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.skagedal.hahabit-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F49D631F29F5767700CC240E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.skagedal.hahabit-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hahabit-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hahabit-ios";
+			};
+			name = Debug;
+		};
+		F49D632029F5767700CC240E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.skagedal.hahabit-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hahabit-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hahabit-ios";
+			};
+			name = Release;
+		};
+		F49D632229F5767700CC240E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.skagedal.hahabit-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hahabit-ios";
+			};
+			name = Debug;
+		};
+		F49D632329F5767700CC240E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.skagedal.hahabit-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hahabit-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F49D62F129F5767600CC240E /* Build configuration list for PBXProject "hahabit-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49D631929F5767700CC240E /* Debug */,
+				F49D631A29F5767700CC240E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49D631B29F5767700CC240E /* Build configuration list for PBXNativeTarget "hahabit-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49D631C29F5767700CC240E /* Debug */,
+				F49D631D29F5767700CC240E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49D631E29F5767700CC240E /* Build configuration list for PBXNativeTarget "hahabit-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49D631F29F5767700CC240E /* Debug */,
+				F49D632029F5767700CC240E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49D632129F5767700CC240E /* Build configuration list for PBXNativeTarget "hahabit-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49D632229F5767700CC240E /* Debug */,
+				F49D632329F5767700CC240E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F49D62EE29F5767600CC240E /* Project object */;
+}
