@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F49D62FA29F5767600CC240E /* hahabit_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D62F929F5767600CC240E /* hahabit_iosApp.swift */; };
-		F49D62FC29F5767600CC240E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D62FB29F5767600CC240E /* ContentView.swift */; };
+		F49D62FC29F5767600CC240E /* HabitTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D62FB29F5767600CC240E /* HabitTrackerView.swift */; };
 		F49D62FE29F5767700CC240E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49D62FD29F5767700CC240E /* Assets.xcassets */; };
 		F49D630229F5767700CC240E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49D630129F5767700CC240E /* Preview Assets.xcassets */; };
 		F49D630C29F5767700CC240E /* hahabit_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D630B29F5767700CC240E /* hahabit_iosTests.swift */; };
 		F49D631629F5767700CC240E /* hahabit_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D631529F5767700CC240E /* hahabit_iosUITests.swift */; };
 		F49D631829F5767700CC240E /* hahabit_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D631729F5767700CC240E /* hahabit_iosUITestsLaunchTests.swift */; };
+		F49D632529F5934500CC240E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D632429F5934500CC240E /* LoginView.swift */; };
+		F49D632729F59B3B00CC240E /* habits.json in Resources */ = {isa = PBXBuildFile; fileRef = F49D632629F59B3B00CC240E /* habits.json */; };
+		F49D632929F5BE8A00CC240E /* HabitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D632829F5BE8A00CC240E /* HabitModel.swift */; };
+		F49D632B29F5BF5900CC240E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D632A29F5BF5900CC240E /* ModelData.swift */; };
+		F49D632E29F5C22D00CC240E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D632D29F5C22D00CC240E /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		F49D62F629F5767600CC240E /* hahabit-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hahabit-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49D62F929F5767600CC240E /* hahabit_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hahabit_iosApp.swift; sourceTree = "<group>"; };
-		F49D62FB29F5767600CC240E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F49D62FB29F5767600CC240E /* HabitTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerView.swift; sourceTree = "<group>"; };
 		F49D62FD29F5767700CC240E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F49D62FF29F5767700CC240E /* hahabit_ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hahabit_ios.entitlements; sourceTree = "<group>"; };
 		F49D630129F5767700CC240E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +50,11 @@
 		F49D631129F5767700CC240E /* hahabit-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hahabit-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49D631529F5767700CC240E /* hahabit_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hahabit_iosUITests.swift; sourceTree = "<group>"; };
 		F49D631729F5767700CC240E /* hahabit_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hahabit_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F49D632429F5934500CC240E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F49D632629F59B3B00CC240E /* habits.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = habits.json; sourceTree = "<group>"; };
+		F49D632829F5BE8A00CC240E /* HabitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitModel.swift; sourceTree = "<group>"; };
+		F49D632A29F5BF5900CC240E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		F49D632D29F5C22D00CC240E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +105,14 @@
 		F49D62F829F5767600CC240E /* hahabit-ios */ = {
 			isa = PBXGroup;
 			children = (
+				F49D632C29F5C1E300CC240E /* Views */,
 				F49D62F929F5767600CC240E /* hahabit_iosApp.swift */,
-				F49D62FB29F5767600CC240E /* ContentView.swift */,
+				F49D632629F59B3B00CC240E /* habits.json */,
 				F49D62FD29F5767700CC240E /* Assets.xcassets */,
 				F49D62FF29F5767700CC240E /* hahabit_ios.entitlements */,
 				F49D630029F5767700CC240E /* Preview Content */,
+				F49D632829F5BE8A00CC240E /* HabitModel.swift */,
+				F49D632A29F5BF5900CC240E /* ModelData.swift */,
 			);
 			path = "hahabit-ios";
 			sourceTree = "<group>";
@@ -127,6 +140,16 @@
 				F49D631729F5767700CC240E /* hahabit_iosUITestsLaunchTests.swift */,
 			);
 			path = "hahabit-iosUITests";
+			sourceTree = "<group>";
+		};
+		F49D632C29F5C1E300CC240E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F49D62FB29F5767600CC240E /* HabitTrackerView.swift */,
+				F49D632429F5934500CC240E /* LoginView.swift */,
+				F49D632D29F5C22D00CC240E /* File.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49D632729F59B3B00CC240E /* habits.json in Resources */,
 				F49D630229F5767700CC240E /* Preview Assets.xcassets in Resources */,
 				F49D62FE29F5767700CC240E /* Assets.xcassets in Resources */,
 			);
@@ -259,7 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F49D62FC29F5767600CC240E /* ContentView.swift in Sources */,
+				F49D632529F5934500CC240E /* LoginView.swift in Sources */,
+				F49D632E29F5C22D00CC240E /* File.swift in Sources */,
+				F49D632929F5BE8A00CC240E /* HabitModel.swift in Sources */,
+				F49D632B29F5BF5900CC240E /* ModelData.swift in Sources */,
+				F49D62FC29F5767600CC240E /* HabitTrackerView.swift in Sources */,
 				F49D62FA29F5767600CC240E /* hahabit_iosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

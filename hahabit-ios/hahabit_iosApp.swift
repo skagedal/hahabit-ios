@@ -4,7 +4,7 @@ import SwiftUI
 struct hahabitApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HabitTrackerView(habits: habits.habits)
         }
     }
 }

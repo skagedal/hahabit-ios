@@ -1,0 +1,14 @@
+{
+    "habits": [
+        {
+            "id": 1,
+            "description": "Mow the lawn",
+            "completed": false
+        },
+        {
+            "id": 2,
+            "description": "Do the taxes",
+            "completed": true
+        }
+    ]
+}
