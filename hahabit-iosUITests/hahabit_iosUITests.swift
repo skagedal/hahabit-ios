@@ -1,10 +1,3 @@
-//
-//  hahabit_iosUITests.swift
-//  hahabit-iosUITests
-//
-//  Created by Simon Kågedal Reimer on 2023-04-23.
-//
-
 import XCTest
 
 final class hahabit_iosUITests: XCTestCase {

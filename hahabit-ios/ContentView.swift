@@ -1,20 +1,20 @@
-//
-//  ContentView.swift
-//  hahabit-ios
-//
-//  Created by Simon Kågedal Reimer on 2023-04-23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
+            Button("Hello") {
+                print("Hello")
+            }
+            Button("Oh no") {
+                print("Oh no")
+            }
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
         }
+        .buttonStyle(.borderedProminent)
         .padding()
     }
 }

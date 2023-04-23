@@ -1,13 +1,6 @@
-//
-//  hahabit_iosTests.swift
-//  hahabit-iosTests
-//
-//  Created by Simon Kågedal Reimer on 2023-04-23.
-//
-
 import XCTest
 
-final class hahabit_iosTests: XCTestCase {
+final class hahabitTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
