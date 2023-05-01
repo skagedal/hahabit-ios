@@ -2,22 +2,43 @@ import SwiftUI
 
 struct LoginView: View {
     @State private var username: String = ""
-//    @FocusState private var emailFieldIsFocused: Bool = false
 
     var body: some View {
+        Form {
+            UsernameEntryView()
+            PasswordEntryView()
+            Button("Login") {
 
+            }
+        }
+    }
+}
+
+struct UsernameEntryView: View {
+    @State private var username: String = ""
+
+    var body: some View {
         TextField("Username", text: $username)
-//            .focused($emailFieldIsFocused)
             .onSubmit {
                 print(username)
             }
             .textInputAutocapitalization(.never)
             .disableAutocorrection(true)
             .border(.secondary)
+    }
+}
 
-//        Text(username)
-//            .foregroundColor(emailFieldIsFocused ? .red : .blue)
-        Text("Name")
+struct PasswordEntryView: View {
+    @State private var password: String = ""
+
+    var body: some View {
+        TextField("Password", text: $password)
+            .onSubmit {
+                print(password)
+            }
+            .textInputAutocapitalization(.never)
+            .disableAutocorrection(true)
+            .border(.secondary)
     }
 }
 

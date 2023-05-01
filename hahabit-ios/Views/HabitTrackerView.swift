@@ -4,9 +4,9 @@ struct HabitTrackerView: View {
     var habits: [Habit]
 
     var body: some View {
-        List(habits, id: \.id) { habit in
+        List(habits) { habit in
             HabitView(habit: habit)
-        }
+        }.debug()
     }
 }
 
