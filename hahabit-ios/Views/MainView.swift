@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct MainView: View {
-    @State private var isLoggedIn = true;
+    @State private var isLoggedIn = false;
 
     var body: some View {
         VStack {
@@ -9,7 +9,7 @@ struct MainView: View {
                 HabitTrackerView(habits: habits.habits)
                     .debug()
             } else {
-                LoginView()
+                LoginView(isLoggedIn: $isLoggedIn)
                     .onSubmit {
                         isLoggedIn = true
                     }

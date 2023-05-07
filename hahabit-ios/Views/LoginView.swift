@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct LoginView: View {
+    @Binding var isLoggedIn: Bool
     @State private var username: String = ""
 
     var body: some View {
@@ -8,7 +9,7 @@ struct LoginView: View {
             UsernameEntryView()
             PasswordEntryView()
             Button("Login") {
-
+                isLoggedIn = true
             }
         }
     }
@@ -44,6 +45,6 @@ struct PasswordEntryView: View {
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        LoginView(isLoggedIn: .constant(false))
     }
 }
