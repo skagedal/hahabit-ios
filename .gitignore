@@ -1,0 +1,5 @@
+# Might want to bring in more from 
+#   https://github.com/github/gitignore/blob/main/Swift.gitignore
+
+## User settings
+xcuserdata/
